@@ -1,0 +1,35 @@
+{
+  "name": "reactjs",
+  "version": "1.0.0",
+  "description": "Learn React tutorial and build an app using React Native",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shao0203/ReactJS.git"
+  },
+  "author": "shao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shao0203/ReactJS/issues"
+  },
+  "homepage": "https://github.com/Shao0203/ReactJS#readme",
+  "devDependencies": {
+    "jspm": "^0.16.45"
+  },
+  "jspm": {
+    "dependencies": {
+      "css": "github:systemjs/plugin-css@^0.1.27",
+      "react": "npm:react@0.14.0-rc1",
+      "react-dom": "npm:react-dom@0.14.0-rc1",
+      "semantic-ui": "github:Semantic-Org/Semantic-UI@^2.2.4"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  }
+}
